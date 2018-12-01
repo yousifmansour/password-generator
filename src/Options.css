@@ -1,0 +1,68 @@
+section {
+    display: flex;
+    text-align: center;
+    margin: 5px;
+}
+
+section label {
+    font-size: 26px;
+    background-color: lightgrey;
+    color: #343434;
+    font-weight: bold;
+    flex-basis: 50%;
+    min-width: 50%;
+    max-width: 50%;
+}
+
+section input {
+    min-width: 50%;
+    max-width: 50%;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    color: #343434;
+    margin: 1%;
+    font-size: 20px;
+}
+
+button {
+    /* min-width: 50%;
+    max-width: 50%; */
+    border: none;
+    background-color: #343434;
+    color: seashell;
+    font-size: 40px;
+    font-family: 'Inconsolata', monospace;
+    transition-duration: 0.1s;
+    flex-basis: 100%;
+}
+
+/* @media (orientation: portrait) { */
+
+@media (max-width: 1024px) {
+    section input {
+        font-size: 30px;
+    }
+    section label {
+        max-width: 80%;
+        font-size: 30px;
+    }
+    button {
+        flex-basis: 100%;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 640px){
+    section input {
+        font-size: 18px;
+    }
+    section label {
+        max-width: 80%;
+        font-size: 18px;
+    }
+    button {
+        font-size: 28px;
+    }
+}

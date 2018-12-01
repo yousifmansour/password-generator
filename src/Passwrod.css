@@ -1,0 +1,24 @@
+.password {
+    background: lightgrey;
+    color: #343434;
+    font-size: 75px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+@media (max-width: 1024px) {
+    .password {
+        font-size: 52px;
+        max-width: 100%;
+        overflow-y: auto;
+        overflow-wrap: break-word;
+    }
+}
+
+@media (max-width: 640px) {
+    .password {
+        font-size: 34px;
+        max-width: 100%;
+        overflow-y: auto;
+        overflow-wrap: break-word;
+    }
+}
