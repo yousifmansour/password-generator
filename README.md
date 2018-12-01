@@ -1,6 +1,6 @@
-## Small Description
+## Password Generator
 
-App that generates passwords containing:
+This generates passwords containing:
 
 1) An uppercase letter,
 2) A lowercase letter,
@@ -8,5 +8,6 @@ App that generates passwords containing:
 4) A symbol.
 
 A word can be inserted to the password also.
+Length can be changed.
 
-[View Site Here](https://www.yousifmansour.space/password-generator)
+[View Site Here.](https://www.yousifmansour.space/password-generator)
