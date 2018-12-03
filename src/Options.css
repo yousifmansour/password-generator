@@ -38,13 +38,14 @@ button {
     flex-basis: 100%;
 }
 
-button:hover{
+/* button:hover{
     opacity: 0.8;
     transition: 0.15s;
-}
+} */
 
 button:active{
     transform: scale(1.05);
+    opacity: 0.8;
 }
 
 /* @media (orientation: portrait) { */
