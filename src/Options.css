@@ -1,4 +1,6 @@
 section {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     text-align: center;
     margin: 5px;
@@ -9,7 +11,8 @@ section label {
     background-color: lightgrey;
     color: #343434;
     font-weight: bold;
-    flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
     min-width: 50%;
     max-width: 50%;
 }
@@ -34,8 +37,11 @@ button {
     color: seashell;
     font-size: 40px;
     font-family: 'Inconsolata', monospace;
-    transition-duration: 0.1s;
-    flex-basis: 100%;
+    -webkit-transition-duration: 0.1s;
+         -o-transition-duration: 0.1s;
+            transition-duration: 0.1s;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
 }
 
 /* button:hover{
@@ -44,7 +50,9 @@ button {
 } */
 
 button:active{
-    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
     opacity: 0.8;
 }
 
@@ -59,7 +67,8 @@ button:active{
         font-size: 30px;
     }
     button {
-        flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
         font-size: 30px;
     }
 }
